@@ -1,6 +1,6 @@
 # Exposify
 
-Write a Javascript module and expose it through whatever method is available.
+Template code for writing a Javascript module and exposing it through whatever method is available.
 
 Works with CommonJS, AMD, and plain JS.
 
