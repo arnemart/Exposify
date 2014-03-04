@@ -1,6 +1,6 @@
 # Exposify
 
-Write a Javascript module and expose it through whatever is available.
+Write a Javascript module and expose it through whatever method is available.
 
 Works with CommonJS, AMD, and plain JS.
 
@@ -31,6 +31,7 @@ Works with CommonJS, AMD, and plain JS.
         // Otherwise, expose module on the root object.
         root.MyFancyLib = init();
     }
-})(this); // Pass in the root object ("window" if in a browser)
+
+})(this); // Pass in the root object ("window" if in a browser) to our IIFE
 
 ```
